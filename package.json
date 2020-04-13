@@ -1,6 +1,6 @@
 {
   "name": "@qpitlove/rollup-plugin-input-through",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "@qpitlove/rollup-plugin-input-through",
   "keywords": [
     "rollup",
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qpitlove/input-through.git"
+    "url": "https://github.com/qpitlove/rollup-plugin-input-through.git"
   },
   "bugs": {
-    "url": "https://github.com/qpitlove/input-through/issues"
+    "url": "https://github.com/qpitlove/rollup-plugin-input-through/issues"
   },
-  "homepage": "https://github.com/qpitlove/input-through#readme",
+  "homepage": "https://github.com/qpitlove/rollup-plugin-input-through#readme",
   "scripts": {
     "build": "npm run clean && npm run compile && npm run build:esm",
     "build:esm": "tsc --module es2015 --target es6 --outDir dist/esm",
