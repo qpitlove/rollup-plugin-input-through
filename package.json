@@ -1,6 +1,6 @@
 {
   "name": "@qpitlove/rollup-plugin-input-through",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "@qpitlove/rollup-plugin-input-through",
   "keywords": [
     "rollup",
@@ -23,7 +23,8 @@
     "!**/*.test.*"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
