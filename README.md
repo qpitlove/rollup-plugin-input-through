@@ -7,7 +7,7 @@ input through output without output build
 ## Installation
 
 ```bash
-npm install --save-dev rollup-plugin-input-through
+npm install --save-dev @qpitlove/rollup-plugin-input-through
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ Generally, you need to ensure that ollup-plugin-input-through goes _before_ othe
 ```js
 // rollup.config.js
 import fg from "fast-glob";
-import inputThrough from "rollup-plugin-input-through";
+import inputThrough from "@qpitlove/rollup-plugin-input-through";
 import html2 from "rollup-plugin-html2";
 
 export default [{
