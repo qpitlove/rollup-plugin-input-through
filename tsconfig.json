@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node", // find module in node_modules
+    "module": "commonjs",
+    "target": "es5",
+    // "declaration": true,  // create *.d.ts
+    "sourceMap": true,   // create *.js.map
+    "types": ["node"],
+    "lib": ["es2015", "dom", "scripthost"],
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/**/*test.*",
+    "__tests__/**/*test.*"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "@qpitlove/rollup-plugin-input-through",
+  "version": "0.0.0",
+  "description": "@qpitlove/rollup-plugin-input-through",
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "input",
+    "through"
+  ],
+  "author": "qpitlove <qpitlove@gmail.com> (https://github.com/qpitlove/input-through)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "module": "dist/esm/index.js",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "src/",
+    "dist",
+    "!**/*.test.*"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qpitlove/input-through.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qpitlove/input-through/issues"
+  },
+  "homepage": "https://github.com/qpitlove/input-through#readme",
+  "scripts": {
+    "build": "npm run clean && npm run compile && npm run build:esm",
+    "build:esm": "tsc --module es2015 --target es6 --outDir dist/esm",
+    "compile": "tsc --module commonjs --target es5 --outDir dist --declaration",
+    "clean": "rm -rf ./dist && rm -rf ./coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
