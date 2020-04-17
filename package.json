@@ -1,12 +1,13 @@
 {
   "name": "@qpitlove/rollup-plugin-input-through",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "@qpitlove/rollup-plugin-input-through",
   "keywords": [
     "rollup",
     "rollup-plugin",
-    "input",
-    "through"
+    "input-through",
+    "input-output-through",
+    "rollup-plugin-input-through"
   ],
   "author": "qpitlove <qpitlove@gmail.com> (https://github.com/qpitlove/input-through)",
   "license": "MIT",
