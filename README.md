@@ -26,7 +26,7 @@ export default [{
     inputThrough({
       // input: ['src/mainA.js', 'src/mainB.js'],
       // output: ['dist/mainA.js', 'dist/mainB.js'],
-      input: (input) => input.replace("src/", "dist/"),
+      input: (val) => val.replace("src/", "dist/"),
     }),
     html2({
       template: "src/index.html",
@@ -42,7 +42,7 @@ export default [{
 ```js
 {
   // `string: (path) => replacement` functions...
-  input: (path) => `'${path.dirname(id)}'`,
+  input: (id) => `'${path.dirname(id)}'`,
 }
 ```
 
