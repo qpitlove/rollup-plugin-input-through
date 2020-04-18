@@ -9,7 +9,7 @@
     "input-output-through",
     "rollup-plugin-input-through"
   ],
-  "author": "qpitlove <qpitlove@gmail.com> (https://github.com/qpitlove/input-through)",
+  "author": "qpitlove <qpitlove@gmail.com> (https://github.com/qpitlove/rollup-plugin-input-through)",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
